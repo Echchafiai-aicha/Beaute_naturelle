@@ -41,7 +41,7 @@
                 <div class="bg-white border border-cream-300 rounded-2xl p-5 flex gap-4 items-center shadow-sm">
                     {{-- Product image --}}
                     <div class="w-20 h-20 rounded-xl overflow-hidden bg-cream-100 flex-shrink-0">
-                        @if(!empty($item['image']) && file_exists(public_path('storage/' . $item['image'])))
+                         @if(!empty($item['image']))
                             <img src="{{ asset('storage/' . $item['image']) }}"
                                  alt="{{ $item['name'] }}" class="w-full h-full object-cover">
                         @else

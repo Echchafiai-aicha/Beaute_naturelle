@@ -9,7 +9,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l14 9-14 9V3z"/>
                     </svg>
                 </div>
-                <span class="text-xl font-bold text-sage-800 tracking-tight">Beauté<span class="text-sage-500">Na</span></span>
+                <span class="text-xl font-bold text-sage-800 tracking-tight">Beauté<span class="text-sage-500">Naturelle</span></span>
             </a>
 
             {{-- Nav links --}}

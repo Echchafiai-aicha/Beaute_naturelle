@@ -22,7 +22,7 @@
         {{-- Image --}}
         <div class="relative">
             <div class="aspect-square rounded-3xl overflow-hidden bg-cream-100 border border-cream-300">
-                @if($product->image && file_exists(public_path('storage/' . $product->image)))
+               @if($product->image)
                     <img src="{{ asset('storage/' . $product->image) }}"
                          alt="{{ $product->name }}"
                          class="w-full h-full object-cover">

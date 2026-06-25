@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Huile d'argan 100% naturelle, pressée à froid. Riche en vitamine E.",
                 'price'       => 89.90,
                 'stock'       => 50,
-                'image'       => null,
+                'image'       => 'products/huile-argan.jpg',
             ],
             [
                 'category_id' => $soins->id,
@@ -41,7 +41,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Crème légère formulée à l'eau de rose. Hydrate et apaise la peau.",
                 'price'       => 65.00,
                 'stock'       => 30,
-                'image'       => null,
+                'image'       => 'products/creme-hydratante.jpg',
             ],
             [
                 'category_id' => $soins->id,
@@ -49,7 +49,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Masque purifiant à l'argile blanche kaolin. Resserre les pores.",
                 'price'       => 45.00,
                 'stock'       => 40,
-                'image'       => null,
+                'image'       => 'products/masque-argile.jpg',
             ],
             [
                 'category_id' => $corps->id,
@@ -57,7 +57,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Savon artisanal au lait de chèvre et beurre de karité.",
                 'price'       => 25.00,
                 'stock'       => 100,
-                'image'       => null,
+                'image'       => 'products/savon-chevre.jpg',
             ],
             [
                 'category_id' => $corps->id,
@@ -65,7 +65,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Beurre de karité non raffiné. Idéal pour les peaux très sèches.",
                 'price'       => 79.00,
                 'stock'       => 25,
-                'image'       => null,
+                'image'       => 'products/beurre-karite.jpg',
             ],
             [
                 'category_id' => $cheveux->id,
@@ -73,7 +73,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Shampooing à l'argile rhassoul. Sans sulfates ni silicones.",
                 'price'       => 55.00,
                 'stock'       => 60,
-                'image'       => null,
+                'image'       => 'products/shampoing-rhassoul.jpg',
             ],
             [
                 'category_id' => $cheveux->id,
@@ -81,7 +81,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Masque nourrissant à l'huile d'avocat et protéines de soie.",
                 'price'       => 70.00,
                 'stock'       => 35,
-                'image'       => null,
+                'image'       => 'products/masque-avocat.jpg',
             ],
             [
                 'category_id' => $parfums->id,
@@ -89,7 +89,7 @@ class DatabaseSeeder extends Seeder
                 'description' => "Fragrance naturelle au jasmin du Maroc et cèdre de l'Atlas.",
                 'price'       => 120.00,
                 'stock'       => 20,
-                'image'       => null,
+                'image'       => 'products/parfum-jasmin.jpg',
             ],
         ];
 

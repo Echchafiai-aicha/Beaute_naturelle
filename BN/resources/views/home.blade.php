@@ -10,7 +10,7 @@
         <div class="absolute bottom-0 right-0 w-96 h-96 bg-sage-400 rounded-full filter blur-3xl"></div>
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+    <div  class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 relative z-10 flex flex-col md:flex-row items-center gap-12 ">
         <div class="max-w-2xl">
             <span class="inline-block bg-sage-600/50 text-sage-200 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-6 border border-sage-500/30">
                 🌿 100% Naturel · Artisanal · Marocain

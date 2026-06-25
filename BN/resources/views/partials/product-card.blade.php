@@ -2,15 +2,15 @@
 
     {{-- Image --}}
     <a href="{{ route('products.show', $product->slug) }}" class="block overflow-hidden aspect-square bg-cream-100">
-        @if($product->image && file_exists(public_path('storage/' . $product->image)))
-            <img src="{{ asset('storage/' . $product->image) }}"
-                 alt="{{ $product->name }}"
-                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-        @else
-            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-cream-100 to-sage-50">
-                <span class="text-5xl">🌿</span>
-            </div>
-        @endif
+        @if($product->image)
+    <img src="{{ asset('storage/' . $product->image) }}"
+         alt="{{ $product->name }}"
+         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+@else
+    <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-cream-100 to-sage-50">
+        <span class="text-5xl">🌿</span>
+    </div>
+@endif
     </a>
 
     {{-- Info --}}
